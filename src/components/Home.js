@@ -5,7 +5,7 @@ import google from "../assets/google.svg";
 const Home = () => {
   return (
     <section name="home" className="flex w-full h-screen bg-zinc-200">
-      <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
+      <div className="grid md:grid-cols-2 max-w-screen-lg m-auto">
         <div className="flex flex-col justify-center w-full px-2 py-8 md:items-start">
           <p className="text-2xl">Use our chat platform.</p>
           <h1 className="py-3 text-5xl font-bold md:text-7xl">
